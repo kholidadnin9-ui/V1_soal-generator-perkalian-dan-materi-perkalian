@@ -10,8 +10,7 @@ const __dirname = path.dirname(__filename);
 
 // https://vite.dev/config/
 export default defineConfig({
-  // GitHub Pages serves this project from /<repository-name>/.
-  base: "/soal-generator-perkalian-dan-materi-perkalian/",
+  base: "/V1_soal generator perkalian dan materi perkalian/",
   plugins: [react(), tailwindcss(), viteSingleFile()],
   resolve: {
     alias: {
